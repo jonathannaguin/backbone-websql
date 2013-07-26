@@ -8,3 +8,5 @@ Implementation of Backbone.sync to store data to WebSQL (available on webkit-bas
 * Navigate to test/index.html (`http://localhost:8080/test/index.html`)
 
 With polite thanks to [Smarcoms web services s.r.o.](http://www.smarcoms.cz)
+
+* This version does not use a `value` column to store the JSON string, instead it adds new columns on the fly.
